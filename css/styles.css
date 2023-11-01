@@ -27,7 +27,7 @@ img {
     font-style: normal;
     margin-left: auto;
     margin-right: auto;
-    padding: 0, 15px;
+    padding: 0 15px;
     display: flex;
     justify-content: space-between;
 }
@@ -71,6 +71,7 @@ body {
     column-gap: 40px;
     align-items: center;
     width: 100%;
+    padding: 24px 0;
 }
 
 .logotype {
@@ -95,6 +96,7 @@ margin-right: 76px;
 
 .logotype-cpan {
 color: #2E2F42;
+gap: 40px;
 }
 
 .menu-link {
@@ -113,6 +115,7 @@ color: #404bbf;
 .top-heder {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 /*======HEDER CONTACTS===========*/
 .list-contacts {
