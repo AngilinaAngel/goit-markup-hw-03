@@ -91,7 +91,8 @@ margin-right: 76px;
     display: flex;
     justify-content: space-between; 
     gap: 40px;
-
+    align-items: center;
+    ign-items: center;
 }
 
 .logotype-cpan {
@@ -112,12 +113,13 @@ color: #2E2F42;
 color: #404bbf; 
 }
 
+/*======HEDER CONTACTS===========*/
 .top-heder {
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
-/*======HEDER CONTACTS===========*/
+
 .list-contacts {
 list-style-type: none;
 font-style: normal;    
@@ -217,6 +219,8 @@ gap: 8px;}
 
 .wrap-list {
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-self: center;
     display: flex;
     column-gap: 8px;
     gap: 24px;
@@ -251,6 +255,9 @@ background-color: #FFFFFF;
  height: 1000px;
  top: 1868px;
  left: 156px;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
  border: 1px #E7E9FC;
 }
 
