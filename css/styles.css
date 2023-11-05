@@ -1,3 +1,4 @@
+/* ============== COMMON STYLES ============== */
 h1,
 h2,
 h3,
@@ -22,6 +23,37 @@ img {
     height: auto;
 }
 
+button {
+    cursor: pointer;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .container {
     width: 1158px;
     font-style: normal;
@@ -31,22 +63,7 @@ img {
     display: flex;
     justify-content: space-between;
 }
-
-.list {list-style-type: none;}
-.link {text-decoration: none;
-        color: #434455;
-}
-
-button {
-    cursor: pointer;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background: #FFFFFF;
-}
-
+/* ============== COMMON STYLES ============== */
 /*======HEDER STYLES===========*/
 .contacts {
     font-style: normal;
@@ -192,9 +209,6 @@ color: #2E2F42;
     color: #434455;
 }
 
-.transparent {
-    text-transform: transparent;
-}
 
 .peculiaris {
     display: flex;
