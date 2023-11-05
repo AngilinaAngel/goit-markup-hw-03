@@ -36,12 +36,15 @@ button {
 }
 
 body {
-    width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background: #FFFFFF;
+}
+
+main {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .visually-hidden {
@@ -95,7 +98,8 @@ body {
 }
 
 .menu-aiten {
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logotype {
