@@ -84,7 +84,7 @@ body {
     margin-bottom: 24px;
     }
 
-.menu {
+.menu-header {
     display: flex;
     column-gap: 40px;
     align-items: center;
