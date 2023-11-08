@@ -89,6 +89,7 @@ body {
     align-items: center;
     width: 100%;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .menu-aiten {
