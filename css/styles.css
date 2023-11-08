@@ -116,7 +116,6 @@ margin-right: 76px;
     justify-content: space-between; 
     gap: 40px;
     align-items: center;
-    padding: 24px 0;
 }
 
 .logotype-cpan {
@@ -151,6 +150,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding: 24px 0;
 color:#434455;
 }
 
