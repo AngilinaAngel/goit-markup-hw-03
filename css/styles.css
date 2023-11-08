@@ -160,7 +160,10 @@ color:#434455;
 .list-contacts:focus {
     color:#404bbf;
 }
-    
+
+.peculiaris-li {
+    padding: 24px 0; 
+}
 /*=======HERO SECTION===========*/
 .section-hero {
 background-color: #2e2f42;
